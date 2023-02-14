@@ -30,14 +30,14 @@ public class AccountTest {
                 {"q 0",true},
                 {"qi 0",true},
                 {"q77777 0www",true},
-                {"UKJHG KJKJKKJKJHGHG",true},
+                {"UKJHG KJKJKKJKJHGHG",true}
         };
 
     }
 
     @Test
     public void checkNameToEmbossParameterizedTest() {
-        Account account= new Account(name);
+        Account account=new Account(name);
         boolean actual= account.checkNameToEmboss();
         assertEquals(isExpected,actual);
 
