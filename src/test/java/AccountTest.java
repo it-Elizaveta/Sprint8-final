@@ -37,8 +37,8 @@ public class AccountTest {
 
     @Test
     public void checkNameToEmbossParameterizedTest() {
-        Account account=new Account(name);
-        boolean actual= account.checkNameToEmboss();
+        Account accountTest = new Account(name);
+        boolean actual = accountTest.checkNameToEmboss();
         assertEquals(isExpected,actual);
 
     }
